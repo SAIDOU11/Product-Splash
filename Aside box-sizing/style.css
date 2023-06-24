@@ -1,3 +1,9 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 body {
   font-family: "Karla", sans-serif;
   text-align: center;
@@ -6,13 +12,15 @@ body {
 }
 
 .promo-card {
-  width: 400px;
+  width: 100vw;
   height: 400px;
   padding: 1.5em;
   background-color: white;
+  border: 5px solid blue;
   box-shadow: 0 2px 10px #8aa7c1;
   border-radius: 8px;
   margin: 2em auto 0;
+  box-sizing: border-box;
 }
 
 h2 {
